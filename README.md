@@ -14,7 +14,7 @@ A plugin that can heal and feed yourself or other players. Vault is supported fo
 - Heal or feed another player
 - Offline player detection
 - Full or healthy detection (so you won't waste money!)
-- Command descrption can be changed
+- Command descrption can be changed (requires recompile and change of the plugin.yml in this version)
 - Supports command aliases (requires recompile and change of the plugin.yml in this version)
 - Automatic configuration files reloading
 - Automatic configuration file updater
