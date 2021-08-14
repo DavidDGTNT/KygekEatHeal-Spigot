@@ -1,0 +1,29 @@
+name: KygekEatHeal
+version: "1.0.0"
+author: KygekTeam
+api-version: 1.16
+main: org.kygekteam.java.kygekeatheal.Main
+softdepend: [Vault]
+
+commands:
+  heal:
+    description: "Heal yourself or a player"
+    aliases: kheal
+    usage: "/heal [player]"
+  eat:
+    description: "Eat or feed a player"
+    aliases: ["keat", "feed", "kfeed"]
+    usage: "/eat [player]"
+
+permissions:
+  kygekeatheal:
+    description: Permission to use all KygekEatHeal commands
+    default: true
+    children:
+      kygekeatheal.eat:
+        description: Permission to use /eat command
+        default: true
+      kygekeatheal.heal:
+        description: Permission to use /heal command
+        default: true
+...

@@ -1,0 +1,18 @@
+---
+# KygekEatHeal configuration file
+# KygekEatHeal was made by KygekTeam
+
+##### PRICE & VALUE SETTINGS #####
+# Change the price to eat/heal
+# Will be free if Vault/economy plugin is not loaded
+eat-price: 5000
+heal-price: 5000
+# Change the eat/heal points (Full health/hunger = 20 points)
+# Set to "max" to fill heath/hunger  when eating/healing
+eat-value: "max"
+heal-value: "max"
+
+##### DANGER ZONE #####
+# Do not change this (Only for internal use)!
+config-version: "1.0"
+...
